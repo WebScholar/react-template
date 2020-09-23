@@ -1,0 +1,89 @@
+html,body,h1,h2,h3,h4,h5,h6,input,select,ol,ul,li,p,button,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	line-height: 22px;
+	color: #666;
+	font-family: "Microsoft Yahei", sans-serif;
+}
+ul,ol,li{
+	list-style: none;
+}
+b,strong,h1,h2,h3,h4,h5,h6{
+	font-weight: normal,
+}
+cite,i,em{
+	font-style: normal;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+div,p,span,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+	box-sizing: border-box;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+.clear{
+	display: block;
+	clear: both;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+	line-height: 0;
+}
+.hid{
+	overflow: hidden;
+}
+.hidden{
+	display: none;
+}
+.show{
+	display: block;
+}
+.rel{
+	position: relative;
+}
+.abs{
+	position: absolute;
+}
+.fix{
+	position: fixed;
+}
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #D8D8D8;
+	border-radius: 3px;
+}
+/* ::-webkit-scrollbar-track{
+	border-left:solid 1px #E6EAEE;
+} */
+html,body,#root{
+  width: 100%;
+	height: 100%;
+	/* overflow-y: hidden; */
+}
+#root{
+	min-width: 1200px;
+}
+.no_data{
+	width: 100%;
+	height: 160px;
+	background: url(../images/no_data.png) no-repeat center center;
+	background-size: auto 130px;
+}
